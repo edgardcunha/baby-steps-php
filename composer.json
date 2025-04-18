@@ -1,0 +1,27 @@
+{
+    "name": "edgardcunha/baby-steps-php", 
+    "description": "Projeto PHP básico para aprendizado com GitHub Codespaces.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edgard da Cunha Pontes",
+            "email": "seu-email@exemplo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
